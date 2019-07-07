@@ -30,7 +30,9 @@ section, article {
 
 .headsize{
   display: flex;
-  width: 50%;
+  justify-content: flex-start;
+  text-align: left;
+  width: 65%;
   font-size: 1.1em;
   margin-bottom: .1em;
   font-family: 'Cormorant SC', serif;
@@ -39,7 +41,7 @@ section, article {
 .datesize{
   display: flex;
   justify-content: flex-end;
-  width: 50%;
+  width: 35%;
   font-size: 1.1em;
   margin-bottom: .1em;
   font-family: 'Cormorant SC', serif;
