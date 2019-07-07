@@ -13,3 +13,43 @@ section, article {
   .row > section, .row > article {
     margin-bottom: 0;
   }
+
+.personal-background{
+  margin-top: 1em;
+}
+
+.history{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1em;
+  color: #314159;
+}
+
+.headsize{
+  display: flex;
+  width: 50%;
+  font-size: 1.1em;
+  margin-bottom: .1em;
+  font-family: 'Cormorant SC', serif;
+}
+
+.datesize{
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  font-size: 1.1em;
+  margin-bottom: .1em;
+  font-family: 'Cormorant SC', serif;
+}
+
+.bodysize{
+  display: flex;
+  width: 100%;
+  font-size: .8em;
+  margin-bottom: .05em;
+  padding-left: 2%;
+  text-align: left;
+}
