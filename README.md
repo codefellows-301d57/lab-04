@@ -54,3 +54,10 @@ Credits:
 * Start time: 1:00pm
 * Finish time: 4:00pm
 * Actual time needed to complete: 3 hours
+
+#### Task 3
+* Number and name of feature: Add Functionality
+* Estimate of time needed to complete: 4 hours
+* Start time: ____
+* Finish time: ____
+* Actual time needed to complete: ____
