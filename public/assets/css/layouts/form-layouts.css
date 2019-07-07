@@ -11,6 +11,7 @@ form input[type="email"],
 form input[type="password"],
 form select,
 form textarea {
+  font-family: 'Cormorant Garamond', serif;
   position: relative;
   -webkit-appearance: none;
   display: block;

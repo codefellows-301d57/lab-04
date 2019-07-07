@@ -38,3 +38,19 @@ Credits:
 		jQuery (jquery.com)
 		Scrollex (github.com/ajlkn/jquery.scrollex)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+## Development Notes
+### Feature Updates
+#### Task 1
+* Number and name of feature: Refactoring the CSS
+* Estimate of time needed to complete: 1 hour
+* Start time: 12:00pm
+* Finish time: 1:00pm
+* Actual time needed to complete: 1 hour
+
+#### Task 2
+* Number and name of feature: Modify the Contents
+* Estimate of time needed to complete: 3 hours
+* Start time: 1:00pm
+* Finish time: 4:00pm
+* Actual time needed to complete: 3 hours
