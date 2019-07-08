@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Prologue by HTML5 UP html5up.net | @ajlkn Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)",
   "main": "server.js",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -17,9 +22,5 @@
   "bugs": {
     "url": "https://github.com/codefellows-301d57/lab-04/issues"
   },
-  "homepage": "https://github.com/codefellows-301d57/lab-04#readme",
-  "dependencies": {
-    "dotenv": "^8.0.0",
-    "express": "^4.17.1"
-  }
+  "homepage": "https://github.com/codefellows-301d57/lab-04#readme"
 }

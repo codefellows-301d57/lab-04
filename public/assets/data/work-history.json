@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Amazon",
+    "date": "may 2019 to present",
+    "description": ["Alexa Domains, healthcare team"]
+  },
+  {
+    "name": "Old Dominion Freight Line",
+    "date": "mar 2017 to may 2019",
+    "description": ["Interact with current and potential customer bases to ensure that all needs are met or exceeded"]
+  },
+  {
+    "name": "US Army",
+    "date": "feb 2013 to feb 2017",
+    "description": [
+      "Supervised a three-member team specializing in Human Intelligence Collection",
+      "Developed training exercises for individual soldiers, small teams, and company level operations",
+      "Analyzed, produced, and reviewed technical intelligence reports fulfilling various levels of security requirements"
+    ]
+  }
+]

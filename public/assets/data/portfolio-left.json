@@ -1,0 +1,12 @@
+[
+  {
+    "href1": "https://mypuppyblog.herokuapp.com/",
+    "src1": "images/my-puppy-blog.png",
+    "name": "Puppy Blog"
+  },
+  {
+    "href1": "https://codefellows-301d57.github.io/lab-02/",
+    "src1": "images/gallery-of-horns.png",
+    "name": "Gallery of Horns"
+  }
+]
