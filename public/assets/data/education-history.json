@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Code Fellows",
+    "date": "may 2019 to present",
+    "description": [
+      "201: Foundations of Software Development - JavaScript, HTML, and CSS",
+      "301: Intermediate Software Development - jQuery, Handlebars, and Heroku Deployment"
+    ]
+  },
+  {
+    "name": "Southern New Hampshire University",
+    "date": "oct 2017 to present",
+    "description": [
+      "Major: Computer Science, focus in software engineering (in-major GPA: 3.969)",
+      "Programming Coursework: Foundations in Application Development; Agile Software Development Liftcycle; Introduction to SQL; Data Structures and Algorithms; Software Test Automation & QA; Operating Environments"
+    ]
+  },
+  {
+    "name": "Carnegie Mellon University",
+    "date": "sept 2008 to mar 2012",
+    "description": [
+      "Major: Music Theory and Composition (in-major GPA: 3.47)"
+    ]
+  }
+]
