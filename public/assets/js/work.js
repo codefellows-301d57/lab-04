@@ -12,7 +12,6 @@ const WorkHistory = function(name, date, description) {
 
 WorkHistory.prototype.renderHTML = function(tempId, tempClass) {
   htmlSetter(tempId, tempClass, workHistoryArr);
-  console.log(workHistoryArr);
 }
 
 WorkHistory.getHistoryFromFile = fileName => {

@@ -49,8 +49,8 @@
 						</div>
 
 					<!-- Nav -->
-						<nav id="nav">
-							<ul>
+						<nav id="nav" class="nav-placeholder">
+							<ul >
 								<li><a href="#top" id="top-link"><span class="icon fa-home">Intro</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link"><span class="icon fa-th">Portfolio</span></a></li>
 								<li><a href="#about" id="about-link"><span class="icon fa-user">About Me</span></a></li>
@@ -115,82 +115,9 @@
 							</header>
 							<p>Below is a sampling of the work I have done in the past, these are a collection of projects developed as both a solo enginner and collaborative engineer. The puppy blog site was built using Python, Flask, HTML, and CSS. All of the other's are built using JavaScript, HTML, and CSS.</p>
 							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://mypuppyblog.herokuapp.com/" class="image fit" target="_blank">
-											<img src="images/my-puppy-blog.png" alt="" />
-										</a>
-										<header>
-											<h3>Puppy Blog</h3>
-										</header>
-									</article>
-<!-- Project Placeholder -->
-									<!-- <article class="item">
-										<a href="https://falafel-raptors.github.io/clever-gyro/" class="image fit" target="_blank">
-											<img src="images/clever-gyro.png" alt="" />
-										</a>
-										<header>
-											<h3>Clever Gyro</h3>
-										</header>
-									</article> -->
-									<article class="item">
-										<a href="https://codefellows-301d57.github.io/lab-02/" class="image fit" target="_blank">
-											<img src="images/gallery-of-horns.png" alt="" />
-										</a>
-										<header>
-											<h3>Gallery of Horns</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://falafel-raptors.github.io/clever-gyro/" class="image fit" target="_blank">
-											<img src="images/clever-gyro.png" alt="" />
-										</a>
-										<header>
-											<h3>Clever Gyro</h3>
-										</header>
-									</article>
-<!-- Project PlaceHolder -->
-									<!-- <article class="item">
-										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-										<header>
-											<h3>Natoque Vitae</h3>
-										</header>
-									</article> -->
-<!-- Project Placeholder -->
-									<!-- <article class="item">
-										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-										<header>
-											<h3>Natoque Vitae</h3>
-										</header>
-									</article> -->
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://paronicholas.github.io/bus-mall/" class="image fit" target="_blank">
-											<img src="images/bus-mall.png" alt="" />
-										</a>
-										<header>
-											<h3>Bus Mall</h3>
-										</header>
-									</article>
-<!-- Project Placeholder -->
-									<!-- <article class="item">
-										<a href="https://falafel-raptors.github.io/clever-gyro/" class="image fit" target="_blank">
-											<img src="images/clever-gyro.png" alt="" />
-										</a>
-										<header>
-											<h3>Clever Gyro</h3>
-										</header>
-									</article> -->
-									<article class="item">
-										<a href="https://paronicholas.github.io/about-me/" class="image fit" target="_blank"><img src="images/about-me.png" alt="" /></a>
-										<header>
-											<h3>About Me</h3>
-										</header>
-									</article>
-								</div>
+								<div class="col-4 col-12-mobile portfolio-left-placeholder"></div>
+								<div class="col-4 col-12-mobile portfolio-center-placeholder"></div>
+								<div class="col-4 col-12-mobile portfolio-right-placeholder"></div>
 							</div>
 						</div>
 					</section>
@@ -258,6 +185,20 @@
 		
 		<!-- Handlebars -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.js"></script>
+
+		<script id="portfolio-template" type="text/x-handlebars-template">
+			{{#each this}}
+			<article class="item">
+				<a href="{{href1}}" class="image fit" target="_blank">
+					<img src="{{src1}}" alt="">
+				</a>
+				<header>
+					<h3>{{name}}</h3>
+				</header>
+			</article>
+			{{/each}}
+		</script>
+
 		<script id="history-template" type="text/x-handlebars-template">
 			{{#each this}}
 			<section class="history">
@@ -271,6 +212,9 @@
 		</script>
 		
 		<script src="assets/js/handleSetUp.js"></script>
+		<script src="assets/js/portfolio-left.js"></script>
+		<script src="assets/js/portfolio-center.js"></script>
+		<script src="assets/js/portfolio-right.js"></script>
 		<script src="assets/js/work.js"></script>
 		<script src="assets/js/education.js"></script>
 	</body>

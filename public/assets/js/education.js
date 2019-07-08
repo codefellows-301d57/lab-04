@@ -12,7 +12,6 @@ const EdHistory = function(name, date, description) {
 
 EdHistory.prototype.renderHTML = function(tempId, tempClass) {
   htmlSetter(tempId, tempClass, edHistoryArr);
-  console.log(edHistoryArr);
 }
 
 EdHistory.getHistoryFromFile = fileName => {
