@@ -1,12 +1,12 @@
 [
   {
+    "href1": "https://fantasywordbook.herokuapp.com/",
+    "src1": "images/fantasy-wordbook.png",
+    "name": "Fantasy Wordbook"
+  },
+  {
     "href1": "https://paronicholas.github.io/bus-mall/",
     "src1": "images/bus-mall.png",
     "name": "Bus Mall"
-  },
-  {
-    "href1": "https://paronicholas.github.io/about-me/",
-    "src1": "images/about-me.png",
-    "name": "About Me"
   }
 ]
